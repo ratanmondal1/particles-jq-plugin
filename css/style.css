@@ -1,0 +1,65 @@
+
+@font-face {
+	font-family: Ubuntu-Italic;
+	src: url('../font/Ubuntu-Italic.ttf');
+}
+@font-face {
+	font-family: Ubuntu-Regular;
+	src: url('../font/Ubuntu-Regular.ttf');
+}
+@font-face {
+	font-family: Quicksand-Light;
+	src: url('../font/Quicksand-Light.ttf');
+}
+
+
+
+#bannar{
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bannar.jpg) no-repeat top center / cover;
+position: relative;
+height: 100vh;
+}
+
+.bannar-content{
+	position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+.c-hlw{
+	font-family: Ubuntu-Regular;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+.iam{
+	font-family: Quicksand-Light;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.c-h2 {
+   font-family: Ubuntu-Regular;
+	font-size: 40px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+
+.bannar-content i {
+    font-size: 15px;
+    padding-top: 17px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    transition: .5s;
+}
+.bannar-content i:hover{
+	transform: scaleY(.5);
+}
+
+.clip{
+	margin: 20px 0;
+}
